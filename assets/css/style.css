@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.heic") top center;
   background-size: cover;
 }
 
@@ -464,6 +464,36 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: #080808;
+}
+
+.interests .icon-box:hover {
+  background: rgb(255, 255, 255);
 }
 
 /*--------------------------------------------------------------
